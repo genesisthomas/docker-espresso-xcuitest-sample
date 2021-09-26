@@ -1,0 +1,31 @@
+{
+  "cloudURL": "<<cloud name>>",
+  "securityToken": "<<SECURITY TOKEN>>",
+  "devices": [
+	{
+        	"platformName": "Android",
+        	"model" : "Galaxy S.*" 
+      	},
+      	{
+	   	"platformName": "Android",
+           	"model" : "Galaxy S.*" 
+	}
+  ],
+  "jobName": "some_job",
+  "jobNumber": 1,
+  "branch": "some_branch",
+  "projectName": "My_Espresso_project",
+  "projectVersion": "v1.0",
+  "tags": [
+    "espresso", "plugin"
+  ],
+  "apkPath": "app-debug.apk",
+  "testApkPath": "app-debug-androidTest.apk",
+  "installationDetails" : {"preCleanUp" : "true"},
+  "postExecution" : {"uninstall" : "false" },
+  "debug": false,
+  "failBuildOnFailure": true,
+  "takeScreenshotOnTestFailure": true,
+  "shard": true,
+  "testTimeout" : 60000
+}
